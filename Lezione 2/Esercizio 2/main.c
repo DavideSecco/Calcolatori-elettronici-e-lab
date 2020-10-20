@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//riscrivi "Margherita" con una M  e A finale maiuscole
+//riscrivi "margherita" con una M  e A finale maiuscole
 
 int main()
 {
 	char vet[11] = "margherita";
 	char *p;
 
-	p = &vet[0]; //perchè non avresti saputo l'indirizzo di 32
+	p = &vet[0]; //perchè non avresti saputo l'indirizzo di 32 (bit?)
 
 	__asm {
 		mov ebx, p
@@ -18,7 +18,6 @@ int main()
 
 		mov edi, 9
 		sub [ebx + edi * 1], 32
-		
 
 	}
 

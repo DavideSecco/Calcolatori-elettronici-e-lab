@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//leggo gli elementi di posizione 0 e 4 del vettore con indirizzamento base + indice*scala
+//leggo gli elementi di posizione 0 e 4 del vettore e li sommo
 
 int main()
 {

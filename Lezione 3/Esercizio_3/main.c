@@ -25,6 +25,7 @@ int main() {
 			mov edx, dword ptr[eax + edi * 4]
 			cmp edx, dword ptr[ebx + edi * 4]
 			jge metti_a_1
+
 		incremento_e_confronto:
 			add edi, 1
 			cmp edi, 4
@@ -42,4 +43,6 @@ int main() {
 
 	for (int i = 0; i < 5; i++)
 		printf("a = %d b = %d -> c = %d \n", a[i], b[i], c[i]);
+
+
 }
