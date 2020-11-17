@@ -1,0 +1,30 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:dc4373cc-2c3c-45dc-b8e2-83ed3f4f7c3a</distributor>
+  <operatorURL>http://acs4.cantook.net/fulfillment</operatorURL>
+  <transaction>v1:en:5fb2db1e:edgt:1030:853849530:1605521842:416169742:5.77.97.162:6193155:v1</transaction>
+  <expiration>2020-11-17T02:30:08+00:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:d3b12481-13fd-4021-a177-2d3b61339a60</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Il leader calmo</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Carlo Ancelotti</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">RIZZOLI LIBRI</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/"></dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">it-IT</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:d3b12481-13fd-4021-a177-2d3b61339a60</resource>
+      <permissions>
+        <display>
+          <until>2020-11-29T23:00:00+00:00</until>
+        </display>
+        <play>
+          <until>2020-11-29T23:00:00+00:00</until>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>bRBY5B8rp1WzCyRgSaYqW4BFLrA=</hmac>
+</fulfillmentToken>
