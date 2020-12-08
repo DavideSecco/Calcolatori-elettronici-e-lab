@@ -1,7 +1,6 @@
 #include "stdio.h"
 
 //Prodotto fra due numeri CON SEGNO
-// DA FAREEEEE
 
 int f (int a, int b)
 {
@@ -47,8 +46,6 @@ int f (int a, int b)
 			end :
 				cmp ecx, 1
 				je negate_one_more_time		// se ecx == 1 --> devo cambiare segno e vado a negare edx
-				//cmp ecx, 2				// Da eliminare....
-				//je negate_one_more_time
 
 			come_here :
 				mov c, edx
@@ -62,7 +59,7 @@ int main()
 	int a0 = 0, b0 = 7;
 	int a1 = 5, b1 = 0;
 	int a2 = 0, b2 = 0;
-	int a3 = -5, b3 = -7;
+	int a3 = 5, b3 = -7;
 	int c;
 
 	
@@ -77,4 +74,6 @@ int main()
 
 	c = f(a3, b3);
 	printf("il prodotto fra %d e %d e' %d\n", a3, b3, c);
+
+	getchar();
 }

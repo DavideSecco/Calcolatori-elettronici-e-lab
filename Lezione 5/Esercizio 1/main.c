@@ -1,5 +1,7 @@
 #include "stdio.h"
 
+// somma di elementi di un vettore
+
 __declspec(naked) int sommavett(int *p, int l) {
 	
 	__asm {
@@ -51,6 +53,6 @@ __declspec(naked) int sommavett(int *p, int l) {
 int main()
 {
 	int vet[10] = { 1,2,3,4,5,6,7,8,9,10 };
-	printf("la somma di ogni vettore e' %d", sommavett(vet, 10));
+	printf("la somma del vettore e' %d", sommavett(vet, 10));
 	getchar();
 }

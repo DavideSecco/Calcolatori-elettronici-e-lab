@@ -15,10 +15,10 @@ int main()
 		mov ecx, 0
 
 		Ciclo:
-		cmp edi, eax
-		jae fine
+		cmp eax, 0
+		je fine
 		add ecx, ebx
-		add edi, 1
+		dec eax
 		jmp Ciclo
 
 		fine:
@@ -26,4 +26,5 @@ int main()
 	}
 
 	printf("il prodotto fra %d e %d e' %d", a, b, c);
+	getchar();
 }

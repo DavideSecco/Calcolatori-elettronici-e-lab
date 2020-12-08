@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// calcola lunghezza di una stringa
+
 int main()
 {
 	char str[255] = "Ingegneria Informatica fa schifo";

@@ -1,5 +1,7 @@
 #include "stdio.h"
 
+// ??? come quello di prima: somma elementi di un vettore
+
 __declspec(naked) int sommavett(char *p, int l) {
 
 	__asm {

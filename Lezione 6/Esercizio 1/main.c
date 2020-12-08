@@ -39,7 +39,6 @@ __declspec(naked) int media(int* v, int lunghezza) {
 		Mov ESP, EBP	// ripristino lo stack
 		Pop EBP			// ripristino EBP del Chiamante
 		Ret				// recupero EIP dallo stack
-
 	}
 }
 
