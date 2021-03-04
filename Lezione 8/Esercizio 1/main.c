@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// La stringa è palindroma? 1 -> è palindroma, 0 -> non è palindroma
+// La stringa ï¿½ palindroma? 1 -> ï¿½ palindroma, 0 -> non ï¿½ palindroma
 
 int palindromo(char*);
 
@@ -8,7 +8,6 @@ int main()
 {
 	char str[] = "amggamma";
 
-	printf("la stringa è palindroma %d", palindromo(str));
+	printf("la stringa ï¿½ palindroma %d", palindromo(str));
 
-	getchar();
-}
+	return 0;
